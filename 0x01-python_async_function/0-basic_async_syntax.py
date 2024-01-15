@@ -6,6 +6,7 @@ Module documentation for 0-basic_async_syntax.py
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
     """
     Async coroutine waiting for random delay between 0 max_delay seconds

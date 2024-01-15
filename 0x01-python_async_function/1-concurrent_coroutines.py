@@ -2,9 +2,9 @@
 """
 Module documentation for 1-concurrent_coroutines.py
 """
-
 import asyncio
 from typing import List
+
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
